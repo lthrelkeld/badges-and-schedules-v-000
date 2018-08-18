@@ -7,5 +7,5 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms(speakers)
-  rooms = Array.new(1..7)
+  rooms = Array.new(7,1..7)
 end
