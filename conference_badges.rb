@@ -30,5 +30,6 @@ def printer(speakers)
   speakers.each do |speaker|
     puts badges[index]
     puts rooms[index]
+    index +=1
   end
 end
