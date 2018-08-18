@@ -3,7 +3,12 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speakers)
-  speakers.collect{|name| puts "Hello, my name is #{name}."}
+  badge_array = Array.new()
+  speakers.each do |name|
+    badge = "Hello, my name is #{name}."
+    badge_array << badge
+  end
+  #speakers.collect{|name| puts "Hello, my name is #{name}."}
 end
 
 def assign_rooms(speakers)
