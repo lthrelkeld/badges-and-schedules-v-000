@@ -9,15 +9,17 @@ def batch_badge_creator(speakers)
     badge_array << badge
   end
   return badge_array
-  #speakers.collect{|name| puts "Hello, my name is #{name}."}
 end
 
 def assign_rooms(speakers)
   rooms = [1,2,3,4,5,6,7]
+  room_assignments = Array.new()
   index = 0
   speakers.each do |speaker|
-    puts "Hello, #{name}! You'll be assigned to room #{rooms[index]}!"
+    room_assignment = "Hello, #{name}! You'll be assigned to room #{rooms[index]}!"
+    room_assignments << room_assignment
   end
+  return room_assignment
 end
 
 def printer(speakers)
