@@ -16,7 +16,7 @@ def assign_rooms(speakers)
   room_assignments = Array.new()
   index = 0
   speakers.each do |speaker|
-    room_assignment = "Hello, #{name}! You'll be assigned to room #{rooms[index]}!"
+    room_assignment = "Hello, #{speaker}! You'll be assigned to room #{rooms[index]}!"
     room_assignments << room_assignment
   end
   return room_assignments
