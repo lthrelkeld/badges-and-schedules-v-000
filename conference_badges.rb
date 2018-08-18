@@ -8,6 +8,7 @@ def batch_badge_creator(speakers)
     badge = "Hello, my name is #{name}."
     badge_array << badge
   end
+  return badge_array
   #speakers.collect{|name| puts "Hello, my name is #{name}."}
 end
 
