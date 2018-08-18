@@ -19,7 +19,7 @@ def assign_rooms(speakers)
     room_assignment = "Hello, #{name}! You'll be assigned to room #{rooms[index]}!"
     room_assignments << room_assignment
   end
-  return room_assignment
+  return room_assignments
 end
 
 def printer(speakers)
